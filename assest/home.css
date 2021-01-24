@@ -1,0 +1,477 @@
+* {
+    font-family: "Letter Gothic Std";
+    text-decoration: none;
+    min-width: 60px;
+    box-sizing: border-box;
+}
+body {
+text-align: center;
+margin: 0 auto;
+background-image: url(images/bghome.jpg);
+align-items: center;
+justify-content: center;
+background-repeat: no-repeat;
+
+
+
+}
+
+
+.mid-logo {
+    width: 70px;
+    height: 70px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+
+    
+}
+
+
+
+.student{
+    font-family: "Bradley Hand ITC";
+    margin-bottom: 20px;
+    overflow: hidden; 
+    border-right: .1em solid transparent; 
+    white-space: nowrap; 
+    margin: 0 auto; 
+    letter-spacing: .1em; 
+    color: white;
+}
+  .mid > hr {
+      width: 200px;
+
+
+  }
+  .elon {
+      z-index: 2;
+      position: relative;
+  }
+.goals-png {
+    width: 100%;
+    margin-top: -210px;
+    border: none;
+    box-shadow: 0px 0xp 10px 20px rgb(0, 0, 0);
+    z-index: -1;
+}
+.about {
+    
+    border: 1px solid black;
+    padding: 20px;
+    color: white;
+    background: black;
+    margin-bottom: 60px;
+    box-shadow: 0px 0px 10px 20px black;
+    width: 100%;
+     
+}
+.aciklama {
+    font-size: large;
+} 
+.language {
+     padding-top: 20px;
+ }
+ .html-viki {
+     color: #FF5733;
+     font-size: x-large;
+    
+    }
+    
+.css-viki {
+    color: #264de4 ;
+    font-size: x-large;
+} 
+.very-soon {
+    font-size: x-large;
+
+}
+.about > .ab_hr {
+   border:  2px solid  cyan;
+   transition: 0.6s ease;
+   border-radius: 10px;
+}
+  
+
+.ben > img {
+border: none;
+border-radius: 400px;
+width: 300px;
+box-shadow: 0px 0px 30px 0px rgb(0, 0, 0);
+transition: all 0.3s ease;
+margin-top: 30px;
+margin-bottom: 50px;
+}
+.ben > img:hover {
+box-shadow: 0px 0px 30px 10px rgb(255, 255, 255) ;
+}
+
+
+
+
+.forbuy > h2,.do_not {
+    overflow: hidden; 
+    border-right: .1em solid orange; 
+    white-space: nowrap; 
+    margin: 0 auto; 
+    letter-spacing: .1em; 
+    animation: 
+      typing 3s steps(22, end),
+      blink-caret .75s step-end infinite; 
+}
+@keyframes typing {
+    from { width: 0 }
+    to { width: 30% }
+  }
+  
+  
+  @keyframes blink-caret {
+    from, to { border-color: transparent }
+    50% { border-color: transparent; }
+  }
+
+
+#app-cover {
+    margin-top: 20px;
+}
+.name {
+    border: 1px solid rgb(255, 255, 255);    
+    width: 25rem;
+    height: 3rem;
+    float: left;
+    margin-left: 260px;
+    margin-bottom: 1rem;
+    margin-right: 13px;
+   
+    padding-left: 5px;
+    transition: all 0.2s ease;
+    background: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    font-size: 18px ;
+}
+.name::placeholder {
+    font-size:large;
+    color: rgb(99, 99, 99);
+    
+}
+.name:focus {
+    outline: none;
+    box-shadow: 0 0 0 2pt rgb(0, 0, 0);
+}
+
+
+
+.email {
+    border: 1px solid rgb(255, 255, 255);
+    width: 25rem;
+    height: 3rem;
+   margin-right: 280px;
+   
+    padding-left: 5px;
+ transition: all 0.2s ease;
+ background: rgb(255, 255, 255);
+    font-size: 18px;
+}
+.email:focus {
+    outline: none;
+    box-shadow: 0 0 0 2pt rgb(0, 0, 0);
+    
+}
+.email::placeholder {
+    font-size: large;
+    color: rgb(99, 99, 99);
+}
+
+textarea::placeholder {
+    font-size: large;
+    color: rgb(99, 99, 99);
+}
+textarea {
+        font-size: 18px;
+		display: block;
+		border: 0;
+		background: #f1f1f1;
+		width: 60%;
+        padding: 0.75em;
+        resize:none;
+        margin-left: 260px;
+        margin-bottom: 20px;
+        
+        transition: all 0.2s ease;
+        height: 30%;
+    }
+textarea {
+    min-height: 12em;
+    transition: all 0.2s ease;
+}
+textarea:focus {
+    outline: none;
+    box-shadow: 0 0 0 2pt rgb(0, 0, 0);
+}
+
+
+
+.submit, .reset {
+    border: 2px solid black;
+    width: 18rem;
+    height: 50px;
+    border-radius: 30px;
+    background: black;
+    color: white;
+    margin-bottom: 10px;
+    transition: all 0.3s ease;
+    font-size: large;
+}
+.submit:focus {
+    outline: none;
+}
+.reset:focus {
+    outline: none;
+}
+
+.submit:hover {
+    background: darkcyan;
+    color: white;
+    border: none;
+     width: 20rem;
+    cursor: pointer;
+    }
+.reset:hover {
+    background: darkcyan;
+    color: white;
+    border: none;
+   width: 20rem;
+   cursor: pointer;
+}
+.reset {
+    margin-bottom: 90px;
+    
+}
+.social-b {
+    color: black;
+}
+.social-b:hover {
+    color: black;
+}
+.wrapper {
+    display: inline-flex;
+
+}
+.wrapper .icon {
+    margin: 0 20px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    position: relative;
+    z-index: 2;
+    transition: all 0.4s cubic-bezier(0.68,-0.55,0.265,1.55);
+    
+}
+
+.wrapper .icon span {
+    height: 55px;
+    width: 40px;
+    display: block;
+    background: #fff;
+    box-shadow: 0 10px 20px rgba(0, 0, 0,0.1);
+    border-radius: 50%;
+    text-align: center;
+    position: relative;
+    z-index: 2;
+    transition: all 0.3s ease;
+}
+
+.wrapper .icon span i {
+    font-size: 25px;
+    line-height: 54px;
+}
+.wrapper .icon .tooltip {
+    position: absolute;
+    top: 0px;
+color: #fff;
+    background: #fff;
+    font-size: 20px;
+    padding: 10px 18px;
+    border-radius: 25px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0,0.1);
+    opacity: 0;
+    pointer-events: none;
+    transition: all 0.4s cubic-bezier(0.68,-0.55,0.265,1.55);
+    font-family: 'Open Sans', sans-serif;
+    
+}
+.wrapper .icon:hover .tooltip {
+    top: -70px;
+    opacity: 1;
+    pointer-events: auto;
+    
+}
+.wrapper .icon:hover span,
+.wrapper .icon:hover .tooltip{
+    text-shadow: 0px -1px 0px rgba(0,0,0,0.4);
+}
+.wrapper .twitter:hover span,
+.wrapper .twitter:hover .tooltip, 
+.wrapper .twitter:hover .tooltip::before{
+background: #46C1F6;
+}
+.wrapper .instagram:hover span,
+.wrapper .instagram:hover .tooltip, 
+.wrapper .instagram:hover .tooltip::before {
+    background: #e1306c;
+}
+.wrapper .github:hover span,
+.wrapper .github:hover .tooltip, 
+.wrapper .github:hover .tooltip::before {
+    background: #333;
+}
+.wrapper .linkedin:hover span,
+.wrapper .linkedin:hover .tooltip, 
+.wrapper .linkedin:hover .tooltip::before {
+    background: #0072b1;
+}
+.wrapper .instagram .tooltip::before {
+    position: absolute;
+    content: "";
+    height: 15px;
+    width: 15px;
+    background: #e1306c;
+    bottom: -8px;
+    left: 50%;
+    transform: translateX(-50%) rotate(45deg);
+}
+.wrapper .twitter .tooltip::before {
+    position: absolute;
+    content: "";
+    height: 15px;
+    width: 15px;
+    background: #46C1F6;
+    bottom: -8px;
+    left: 50%;
+    transform: translateX(-50%) rotate(45deg);
+}
+.wrapper .github .tooltip::before {
+    position: absolute;
+    content: "";
+    height: 15px;
+    width: 15px;
+    background:  #333;
+    bottom: -8px;
+    left: 50%;
+    transform: translateX(-50%) rotate(45deg);
+}
+.wrapper .linkedin .tooltip::before {
+    position: absolute;
+    content: "";
+    height: 15px;
+    width: 15px;
+    background:  #0072b1;
+    bottom: -8px;
+    left: 50%;
+    transform: translateX(-50%) rotate(45deg);
+}
+.copyright {
+    font-family: 'Courier New', Courier, monospace;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+@media screen and (max-width: 1000px) {
+
+    body {
+        background-repeat: repeat;
+    }
+    .mid-logo {
+        width: 140px;
+        height: 140px; 
+     }
+     .student {
+         font-size: 75px;
+     }
+     .ben > img {
+         width: 700px;
+         height: 700px;
+    }
+    .elon {
+        font-size: x-large;
+    }
+    .goals-png {
+        margin-top: 20px;
+    }
+    .forbuy .meet {
+        font-size: 50px;
+        margin-bottom: 30px;
+        margin-top: 150px;
+    }
+    .name {
+        width: 80%;
+        margin: 0 auto;
+        margin-left: 100px;
+        height: 120px;
+        border-radius: 20px;
+        padding: 20px;
+        font-size: 40px;
+    }
+    .name::placeholder {
+        font-size: 40px;
+    }
+    .email {
+        width: 80%;
+        margin: 0 auto;
+        margin-left: 4px;
+        height: 120px;
+        border-radius: 20px;
+        padding: 20px;
+        font-size: 40px;
+        margin-top: 20px;
+    }
+    .email::placeholder {
+        font-size: 40px;
+    }
+    textarea {
+        width: 80%;
+        height: 400px;
+        margin: 0 auto;
+        margin-left: 100px;
+        margin-top: 20px;
+        background: white;
+        padding: 20px;
+        border-radius: 20px;
+        font-size: 40px;
+    }
+
+
+
+    .submit,.reset {
+        width: 90%;
+        height: 110px; 
+        font-size: 50px;
+        margin-top: 20px ;
+    }
+    .submit:hover, .reset:hover {
+        width: 90%;
+        height: 90px;
+    
+    }
+    .wrapper .icon span {
+        width: 130px;
+        height: 125px;
+    }
+    .wrapper .icon span i {
+        font-size: 70px;
+        line-height: 54px;
+        padding: 33px;
+    }
+    .wrapper .icon .tooltip {
+        font-size: 45px;
+        margin-bottom: 200px;
+        margin-top: -40px;
+       
+        
+        
+    }
+    .copyright {
+        margin-top: 60px;
+        font-size: 13px;
+    }
+}

@@ -1,0 +1,166 @@
+* {
+    font-family: "Letter Gothic Std";
+    text-decoration: none;
+    
+}
+body {
+text-align: center;
+margin: 0 auto;
+background-image: url(images/bghome.jpg);
+
+} 
+.header {
+    border: none;
+    margin: 0 auto;
+    background: rgb(255, 255, 255); 
+    box-shadow: 0px 0px 30px 5px white;
+    z-index: 2;
+    
+}
+.mid-logo {
+width: 60px;
+height: 60px;
+margin-top: 20px;
+margin-bottom: 0px;
+
+}
+
+
+.header > .header-button {
+    padding-bottom: 2rem;
+    
+}
+.header > .header-button > button {
+    border: none;
+    border-radius: 10px;
+    margin-right: 90px;
+    margin-left: 90px;
+    background: transparent;
+  
+
+}
+.header > .header-button > button > a {
+color: black;
+font-size: large;
+transition: all 0.2s ease;
+
+}
+.header > .header-button > button > a:hover {
+font-size: 22px;
+
+}
+
+.forbuy {
+    margin: 60px;
+    background: white;
+    border: 2px solid white;
+    margin-top: 9rem;
+    font-size: 30px;
+    border-radius: 30px;
+    box-shadow: 0px 0px 30px 10px darkcyan;
+    font-family: Arial, Helvetica, sans-serif;
+}
+p {
+    font-size: 20px;
+}
+.name {
+    border: 1px solid black;    
+    width: 20rem;
+    height: 3rem;
+    float: left;
+    margin-left: 18rem;
+    margin-bottom: 1rem;
+    margin-right: 13px;
+    border-radius: 8px;
+    padding-left: 5px;
+    transition: all 0.2s ease;
+}
+.name,.email,textarea::placeholder {
+    font-size: large;
+}
+
+.name:focus {
+   background-color:  rgb(224, 244, 244);
+    outline: none;
+    font-size: large;
+    transition: all 0.2s ease;
+    width: 319px;
+    height: 51px;
+    box-shadow: 0px 0px 7px 0px darkcyan;
+}
+.name:hover {
+   box-shadow: 0px 0px 7px 0px darkcyan; 
+   width: 319px;
+   height: 51px;
+   border: none;
+}
+.email {
+    border: 1px solid black;
+    width: 20rem;
+    height: 3rem;
+   margin-right: 18rem;
+   border-radius: 8px;
+    padding-left: 5px;
+ transition: all 0.2s ease;
+}
+.email:focus {
+outline: none;
+background-color: rgb(224, 244, 244);
+transition: all 0.2s ease;
+font-size: large;
+width: 319px;
+height: 51px;
+box-shadow: 0px 0px 7px 0px darkcyan;
+}
+.email:hover {
+    box-shadow: 0px 0px 7px 0px darkcyan;
+    width: 319px;
+    height: 51px;
+    border: none;
+}
+textarea {
+    width: 44rem;
+     resize: none;
+    margin-left: 0;
+    border: 1px solid black;
+    border-radius: 8px;
+    padding: 15px;
+    transition: all 0.2s ease;
+    
+}
+textarea:focus {
+    outline: none;
+    background-color: rgb(224, 244, 244);
+    transition: all 0.2s ease;
+    font-size: large;
+    box-shadow: 0px 0px 7px 0px darkcyan;
+    border: none;
+}
+textarea:hover {
+    box-shadow: 0px 0px 7px 0px darkcyan;
+    border: none;
+}
+.submit, .reset {
+    border: 2px solid black;
+    width: 20rem;
+    height: 50px;
+    border-radius: 30px;
+    background: black;
+    color: white;
+    margin-bottom: 10px;
+    transition: all 0.3s ease;
+    font-size: large;
+}
+.submit:hover {
+    background: darkcyan;
+    color: white;
+    border: none;
+     font-size: 20px;
+}
+.reset:hover {
+    background: darkcyan;
+    color: white;
+    border: none;
+    font-size: 20px;
+}
+

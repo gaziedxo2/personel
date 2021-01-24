@@ -1,0 +1,56 @@
+* {
+    font-family: "Letter Gothic Std";
+    text-decoration: none;
+    
+}
+body {
+text-align: center;
+margin: 0 auto;
+background-image: url(images/bghome.jpg);
+
+}
+
+.header {
+    border: none;
+    margin: 0 auto;
+    background: rgb(255, 255, 255); 
+    box-shadow: 0px 0px 30px 5px white;
+    z-index: 2;
+    
+}
+.mid-logo {
+width: 60px;
+height: 60px;
+margin-top: 20px;
+margin-bottom: 0px;
+
+}
+
+
+.header > .header-button {
+    padding-bottom: 2rem;
+    
+}
+.header > .header-button > button {
+    border: none;
+    border-radius: 10px;
+    margin-right: 90px;
+    margin-left: 90px;
+    background: transparent;
+  
+
+}
+.header > .header-button > button > a {
+color: black;
+font-size: large;
+transition: all 0.2s ease;
+
+}
+.header > .header-button > button > a:hover {
+font-size: 22px;
+
+}
+.soon {
+    margin-top: 16rem;
+    font-size: 70px;
+}
