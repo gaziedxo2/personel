@@ -380,6 +380,7 @@ background: #46C1F6;
 
     body {
         background-repeat: repeat;
+        background-image: url(images/bghomephone.jpg);
     }
     .mid-logo {
         width: 140px;
@@ -388,6 +389,18 @@ background: #46C1F6;
      .student {
          font-size: 75px;
      }
+     .about > h1 {
+         font-size: 60px;
+     }
+     .about > p {
+         font-size: 40px;
+     }
+     .html-viki {
+         font-size: 40px;
+     }
+     .css-viki {
+        font-size: 45px;
+    }
      .ben > img {
          width: 700px;
          height: 700px;
@@ -411,6 +424,7 @@ background: #46C1F6;
         border-radius: 20px;
         padding: 20px;
         font-size: 40px;
+        font-family: Arial, Helvetica, sans-serif;
     }
     .name::placeholder {
         font-size: 40px;
@@ -424,6 +438,7 @@ background: #46C1F6;
         padding: 20px;
         font-size: 40px;
         margin-top: 20px;
+        font-family: Arial, Helvetica, sans-serif;
     }
     .email::placeholder {
         font-size: 40px;
@@ -438,6 +453,7 @@ background: #46C1F6;
         padding: 20px;
         border-radius: 20px;
         font-size: 40px;
+        font-family: Arial, Helvetica, sans-serif;
     }
 
 
@@ -447,10 +463,11 @@ background: #46C1F6;
         height: 110px; 
         font-size: 50px;
         margin-top: 20px ;
+        transition: 0.2s ease;
     }
     .submit:hover, .reset:hover {
         width: 90%;
-        height: 90px;
+        height: 110px;
     
     }
     .wrapper .icon span {
@@ -472,6 +489,6 @@ background: #46C1F6;
     }
     .copyright {
         margin-top: 60px;
-        font-size: 13px;
+        font-size: 14px;
     }
 }
