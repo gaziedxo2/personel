@@ -40,7 +40,8 @@ background-size: 100%;
 }
   .mid > hr {
       width: 200px;
-
+      background: white;
+      
 
   }
   .elon {
@@ -388,6 +389,11 @@ background: #46C1F6;
      }
      .student {
          font-size: 75px;
+     }
+     .mid > hr {
+         border: 2px solid white;
+         width: 300px;
+         margin-bottom: 30px;
      }
      .about > h1 {
          font-size: 60px;
