@@ -7,7 +7,10 @@
 body {
 text-align: center;
 margin: 0 auto;
-background: url(images/bghome2.jpg);
+background: url(images/bghome2.jpg) center center fixed;
+animation: image 13s infinite alternate-reverse;
+-webkit-animation: image 13s infinite alternate-reverse;
+-moz-animation: image 13s infinite alternate-reverse;
 align-items: center;
 justify-content: center;
 background-repeat: repeat;
@@ -15,14 +18,31 @@ background-size: 100%;
 
 
 }
+@keyframes image{
+    0%{
+        background: url(images/bghome1.jpg);
+    }
+    25%{
+        background: url(images/bghome2.jpg);
+    }
+    50%{
+        background: url(images/bghome3.jpg);
+    }
+    75%{
+        background: url(images/bghome4.jpg);
+    }
+    100%{
+        background: url(images/bghome5.jpg);
+    }
 
+}
 
 .mid-logo {
     width: 70px;
     height: 70px;
     margin-bottom: 20px;
     margin-top: 20px;
-
+    
     
 }
 
@@ -377,12 +397,19 @@ background: #46C1F6;
     margin-top: 20px;
     margin-bottom: 10px;
 }
-@media screen and (max-width: 1000px) {
-
+@media screen and (max-width: 1000px)  
+{
+        
     body {
         background-repeat: repeat;
-        background-image: url(images/bghomephone.jpg);
+        background-image: url(images/bghomephone.jpg) center center fixed;
+animation: image 13s infinite alternate-reverse;
+-webkit-animation: image 13s infinite alternate-reverse;
+-moz-animation: image 13s infinite alternate-reverse;
+    
     }
+    
+    
     .mid-logo {
         width: 140px;
         height: 140px; 
@@ -472,10 +499,12 @@ background: #46C1F6;
         transition: 0.2s ease;
     }
     .submit:hover, .reset:hover {
+        background: black;
         width: 90%;
         height: 110px;
     
     }
+    
     .wrapper .icon span {
         width: 130px;
         height: 125px;
