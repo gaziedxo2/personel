@@ -154,119 +154,142 @@ box-shadow: 0px 0px 30px 10px rgb(255, 255, 255) ;
 #app-cover {
     margin-top: 20px;
 }
-.name {
-    border: 1px solid rgb(255, 255, 255);    
-    width: 25rem;
-    height: 3rem;
-    float: left;
-    margin-left: 260px;
-    margin-bottom: 1rem;
-    margin-right: 13px;
-   
-    padding-left: 5px;
-    transition: all 0.2s ease;
-    background: rgb(255, 255, 255);
-    color: rgb(0, 0, 0);
-    font-size: 18px ;
-}
-.name::placeholder {
-    font-size:large;
-    color: rgb(99, 99, 99);
-    
-}
-.name:focus {
-    outline: none;
-    box-shadow: 0 0 0 2pt rgb(0, 0, 0);
+.container {
+    margin: 0 auto;
+    max-width: 100%;
+    width: 1140px;
 }
 
+    @media screen and (max-width: 1680px) {
 
+        .container {
+            width: 960px;
+        }
 
-.email {
-    border: 1px solid rgb(255, 255, 255);
-    width: 25rem;
-    height: 3rem;
-   margin-right: 280px;
-   
-    padding-left: 5px;
- transition: all 0.2s ease;
- background: rgb(255, 255, 255);
-    font-size: 18px;
-}
-.email:focus {
-    outline: none;
-    box-shadow: 0 0 0 2pt rgb(0, 0, 0);
-    
-}
-.email::placeholder {
-    font-size: large;
-    color: rgb(99, 99, 99);
-}
+    }
 
-textarea::placeholder {
-    font-size: large;
-    color: rgb(99, 99, 99);
-}
-textarea {
-        font-size: 18px;
-		display: block;
-		border: 0;
-		background: #f1f1f1;
-		width: 60%;
-        padding: 0.75em;
-        resize:none;
-        margin-left: 260px;
-        margin-bottom: 20px;
-        
+    @media screen and (max-width: 1080px) {
+
+        .container {
+            width: 95%;
+        }
+
+    }
+    .name {
+        border: 1px solid rgb(255, 255, 255);    
+        width: 39%;
+        height: 3rem;
+        float: left;
+        margin-left: 100px;
+        margin-bottom: 1rem;
+        margin-right: 13px;
+       
+        padding-left: 5px;
         transition: all 0.2s ease;
-        height: 30%;
+        background: rgb(255, 255, 255);
+        color: rgb(0, 0, 0);
+        font-size: 18px ;
     }
-textarea {
-    min-height: 12em;
-    transition: all 0.2s ease;
-}
-textarea:focus {
-    outline: none;
-    box-shadow: 0 0 0 2pt rgb(0, 0, 0);
-}
-
-
-
-.submit, .reset {
-    border: 2px solid black;
-    width: 18rem;
-    height: 50px;
-    border-radius: 30px;
-    background: black;
-    color: white;
-    margin-bottom: 10px;
-    transition: all 0.3s ease;
-    font-size: large;
-}
-.submit:focus {
-    outline: none;
-}
-.reset:focus {
-    outline: none;
-}
-
-.submit:hover {
-    background: darkcyan;
-    color: white;
-    border: none;
-     width: 20rem;
-    cursor: pointer;
+    .name::placeholder {
+        font-size:large;
+        color: rgb(99, 99, 99);
+        
     }
-.reset:hover {
-    background: darkcyan;
-    color: white;
-    border: none;
-   width: 20rem;
-   cursor: pointer;
-}
-.reset {
-    margin-bottom: 90px;
+    .name:focus {
+        outline: none;
+        box-shadow: 0 0 0 2pt rgb(0, 0, 0);
+    }
     
-}
+    
+    
+    .email {
+      
+        border: 1px solid rgb(255, 255, 255);
+        width: 39%;
+        height: 3rem;
+       
+       margin-left: -85px;
+        padding-left: 5px;
+     transition: all 0.2s ease;
+     background: rgb(255, 255, 255);
+        font-size: 18px;
+        
+    }
+    .email:focus {
+        outline: none;
+        box-shadow: 0 0 0 2pt rgb(0, 0, 0);
+        
+    }
+    .email::placeholder {
+        font-size: large;
+        color: rgb(99, 99, 99);
+    }
+    
+    textarea::placeholder {
+        font-size: large;
+        color: rgb(99, 99, 99);
+    }
+    textarea {
+            font-size: 18px;
+            display: block;
+            border: 0;
+            background: #f1f1f1;
+            width: 80%;
+            padding: 0.75em;
+            resize:none;
+            margin-left: 100px;
+            margin-bottom: 20px;
+            
+            transition: all 0.2s ease;
+            height: 30%;
+        }
+    textarea {
+        min-height: 12em;
+        transition: all 0.2s ease;
+    }
+    textarea:focus {
+        outline: none;
+        box-shadow: 0 0 0 2pt rgb(0, 0, 0);
+    }
+    
+    
+    
+    .submit, .reset {
+        border: 2px solid black;
+        width: 18rem;
+        height: 50px;
+        border-radius: 30px;
+        background: black;
+        color: white;
+        margin-bottom: 10px;
+        transition: all 0.3s ease;
+        font-size: large;
+    }
+    .submit:focus {
+        outline: none;
+    }
+    .reset:focus {
+        outline: none;
+    }
+    
+    .submit:hover {
+        background: darkcyan;
+        color: white;
+        border: none;
+         width: 20rem;
+        cursor: pointer;
+        }
+    .reset:hover {
+        background: darkcyan;
+        color: white;
+        border: none;
+       width: 20rem;
+       cursor: pointer;
+    }
+    .reset {
+        margin-bottom: 90px;
+        
+    }
 .social-b {
     color: black;
 }
@@ -465,7 +488,7 @@ animation: image 13s infinite alternate-reverse;
     .email {
         width: 80%;
         margin: 0 auto;
-        margin-left: 4px;
+        margin-left: 14px;
         height: 120px;
         border-radius: 20px;
         padding: 20px;
