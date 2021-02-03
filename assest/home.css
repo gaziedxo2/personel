@@ -79,7 +79,7 @@ background-size: 100%;
     
   }
 .student{
-    font-family: "Bradley Hand ITC";
+    font-family: "consolas";
     margin-bottom: 20px;
     overflow: hidden; 
     border-right: .1em solid transparent; 
@@ -139,6 +139,9 @@ background-size: 100%;
 }
 .aciklama {
     font-size: large;
+    text-align: justify;
+    margin-left: 50px;
+    margin-right: 50px;
 } 
 .language {
      padding-top: 20px;
@@ -247,6 +250,7 @@ box-shadow: 0px 0px 30px 10px rgb(255, 255, 255) ;
         background: rgb(255, 255, 255);
         color: rgb(0, 0, 0);
         font-size: 18px ;
+             
     }
     .name::placeholder {
         font-size:large;
@@ -291,7 +295,7 @@ box-shadow: 0px 0px 30px 10px rgb(255, 255, 255) ;
             font-size: 18px;
             display: block;
             border: 0;
-            background: #f1f1f1;
+            background: #ffffff;
             width: 80%;
             padding: 0.75em;
             resize:none;
@@ -321,7 +325,8 @@ box-shadow: 0px 0px 30px 10px rgb(255, 255, 255) ;
         color: white;
         margin-bottom: 10px;
         transition: all 0.3s ease;
-        font-size: large;
+        font-size:20.5px;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     }
     .submit:focus {
         outline: none;
@@ -331,15 +336,15 @@ box-shadow: 0px 0px 30px 10px rgb(255, 255, 255) ;
     }
     
     .submit:hover {
-        background: darkcyan;
-        color: white;
+        background: rgb(255, 255, 255);
+        color: rgb(0, 0, 0);
         border: none;
          width: 20rem;
         cursor: pointer;
         }
     .reset:hover {
-        background: darkcyan;
-        color: white;
+        background: rgb(255, 255, 255);
+        color: rgb(0, 0, 0);
         border: none;
        width: 20rem;
        cursor: pointer;
@@ -396,11 +401,12 @@ color: #fff;
     font-size: 20px;
     padding: 10px 18px;
     border-radius: 25px;
-    box-shadow: 0 10px 20px rgba(0, 0, 0,0.1);
+    box-shadow: 0 20px 30px rgba(0, 0, 0,0.1);
     opacity: 0;
     pointer-events: none;
     transition: all 0.4s cubic-bezier(0.68,-0.55,0.265,1.55);
-    font-family: 'Open Sans', sans-serif;
+    font-family: "arial";
+    
     
 }
 .wrapper .icon:hover .tooltip {
@@ -496,7 +502,11 @@ animation: image 13s infinite alternate-reverse;
         height: 140px; 
      }
      .student {
-         font-size: 75px;
+         font-size: 59px;
+         margin-bottom: 15px;
+     }
+     .ben > img {
+         box-shadow:0px 0px 90px 0px  black;
      }
      .mid > hr {
          border: 2px solid white;
@@ -521,6 +531,9 @@ animation: image 13s infinite alternate-reverse;
     }
     .elon {
         font-size: x-large;
+        text-align: justify;
+        margin-left: 70px;
+        margin-right: 70px;
     }
     .goals-png {
         margin-top: 20px;
@@ -531,9 +544,9 @@ animation: image 13s infinite alternate-reverse;
         margin-top: 150px;
     }
     .name {
-        width: 80%;
+        width: 100%;
         margin: 0 auto;
-        margin-left: 100px;
+        margin-left: 0px;
         height: 120px;
         border-radius: 20px;
         padding: 20px;
@@ -543,10 +556,13 @@ animation: image 13s infinite alternate-reverse;
     .name::placeholder {
         font-size: 40px;
     }
+    .name:focus {
+        border: 2px solid black;
+    }
     .email {
-        width: 80%;
+        width: 100%;
         margin: 0 auto;
-        margin-left: 14px;
+        margin-left: 0px;
         height: 120px;
         border-radius: 20px;
         padding: 20px;
@@ -557,22 +573,29 @@ animation: image 13s infinite alternate-reverse;
     .email::placeholder {
         font-size: 40px;
     }
+    .email:focus {
+        border: 2px solid black;
+    }
     textarea {
-        width: 80%;
+        width: 100%;
         height: 400px;
         margin: 0 auto;
-        margin-left: 100px;
+        margin-left: 0px;
         margin-top: 20px;
         background: white;
         padding: 20px;
         border-radius: 20px;
-        font-size: 40px;
+        font-size: 30px;
         font-family: Arial, Helvetica, sans-serif;
+    }
+    textarea:focus {
+        border: 2px solid black;
     }
 
 
 
     .submit,.reset {
+       border-radius: 45px;
         width: 90%;
         height: 110px; 
         font-size: 50px;
@@ -583,7 +606,7 @@ animation: image 13s infinite alternate-reverse;
         background: black;
         width: 90%;
         height: 110px;
-    
+        color: white;
     }
     
     .wrapper .icon span {
