@@ -9,7 +9,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Abel&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">    
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
-
+<link rel="shortcut icon" href="./images/logologo.png">
 
 <link rel="stylesheet" href="assest/home.css" />
 </head>
@@ -60,13 +60,13 @@
     <footer id="contact">
         <div class="contact">
             <span>Contact Us!</span>
-            <form action="https://formspree.io/f/xwkwawgj">
-                <input class="name" type="text" placeholder="Name" name="name">
+            <form action="https://formspree.io/f/xwkwawgj" method="POST">
+                <input class="name" type="text" required placeholder="Name" name="name">
                 <label for="name"></label>
-                <input class="email" type="email" placeholder="E-mail" name="e-mail">
+                <input class="email" type="email" required placeholder="E-mail" name="e-mail">
                 <label for="e-mail"></label>
                 <textarea name="textarea" placeholder="Message" rows="10"></textarea>
-                <button class="submit-btn"><a class="submit-btn-a" href="#">Submit</a></button>
+                <input type="submit" class="submit-btn submit-btn-a" value="Send Message"/><input class="reset-btn"  value="+" type="reset" >
             </form>
             <div class="social-media">
                 <div class="icons">
