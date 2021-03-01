@@ -1,94 +1,100 @@
-
 <!DOCTYPE html>
-<html>
-    <head>
-        <meta charset="UTF-8">
-        <title>Muhammed Gazi | Frontend Developer</title>
-        <link rel="shortcut icon" href="images/logologo.png">
-        <link rel="stylesheet" href="assest/home.css" />
-        
-        
-    </head>
-    <body>
-        
-        <header class="mid">
-                <img src="images/png.png" class="mid-logo" alt="Logo" />
-                <span class="navbar"><a href="#about" class="a-about">About</a>
-                <a href="#contact" class="a-contact">Contact</a></span>  
-        </header>
-        
-        <div class="ben">
-            <img src="images/ben.jpg" /></a>
-            <h1 class="student" id="student">A student also a coder</h1>
-            <hr>
-        </div>
-        
-    
-    <!--About-->
-    
-    <div class="about" id="about"> 
-    <img class="about-me-icon" src="images/about-me-ico.png" alt="about-me-icon">
-        <span class="meet"><h1 class="baslik">Hİ THERE! NİCE TO MEET YOU.</h1>
-    <p class="aciklama">I started coding with curiosity.  After some<br> research,  I got into  this job and I will<br> continue to learn in  the  "student" class<br> until  the end of my life.
-    </p></span> 
-    </div> 
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Muhammed Gazi | Front-end Developer</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Abel&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">    
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
 
 
-    <div class="languages">
-        <img class="icon-code" src="images/icon-code-0.png" alt="code">
-        <span class="languages-span"><h1 class="baslik">LANGUAGES I KNOW.</h1></span>
-        <span class="vikip"><p class="viki"><a class="html-viki" href="https://en.wikipedia.org/wiki/HTML">HTML</a></p>
-        <p class="viki-c"><a class="css-viki" href="https://en.wikipedia.org/wiki/CSS">CSS</a></p></span>
-    </div> 
-    <div class="project">
-        <img class="project-img" src="images/project-code.png" alt="my-project-icon">
-        <span class="project-my"><h1 class="my-project">MY PROJECT</h1>
-        <p>Very Soon :)</p></span>
-    </div> 
- 
-      
-     
-    
-    
-     <!--Contact-->
-<footer id="contact" class="container">
-     <div class="forbuy">
-    <h2 class="h2-meet">Contact me! </h2>
-    
-<div class="form">
-<form action="https://formspree.io/f/xwkwawgj" method="post" >
-        <div><input type="text" class="name" name="name"  required placeholder="Name" /></div>
-        <div><input type="text" class="email" name="email"  required placeholder="demo@demo.com" /></div>
-        <textarea class="mesbox"  name="message" cols="1" rows="10" required placeholder="Message"></textarea>
-        <span><input class="submit" type="submit" value="Send Message"/></span> <span><input class="reset" type="reset" value="Reset"></span>
-    </div>
-</div>    
-</form>
-</article>
+<link rel="stylesheet" href="assest/home.css" />
+</head>
+<body>
+    <div id="home"></div>
+    <header>
+        <nav>
+            
+            <a class="bas" href="#home"><img class="gazi-icon" src="./images/png.png" alt="gazi_icon"></a>
+            
+            <ul>
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#contact">Contact</a></li>
 
-  
-
-
-    <div class="wrapper">
-        <div class="icon twitter">
-            <div class="tooltip">Twitter</div>
-            <a  href="https://twitter.com/gaziedxo" class="social-b" target="_blank"><span class="fa-span"><i class="fab fa-twitter"></i></span></a>
+            </ul>
+        
+        </nav>
+    </header>
+    <section  class="sec-1">
+        <img src="./images/ben.jpg" alt="gazi">
+        <p>Front-end Developer and also a student</p>
+    </section>
+    <div id="about"></div>
+    <section id="sec-2"> 
+        <article class="art">
+            <div class="about-me">
+            <div class="about-me-1">
+                <h1>About Me</h1>
+            <p>I started coding with curiosity. After some
+                research, I got into this job and I will
+                continue to learn in the "student" class
+                until the end of my life.</p>
         </div>
-        <div class="icon instagram">
-            <div class="tooltip">İnstagram</div>
-           <a href="https://instagram.com/gaziedxo" class="social-b" target="_blank"><span><i class="fab fa-instagram"></i></span></a>
+        <div class="about-me-2">
+            <h1>Languages I know</h1>
+            <div class="azz">
+            <a class="html-a" href="https://en.wikipedia.org/wiki/HTML" target="_blank">HTML</a>&nbsp;&nbsp; 
+            <a class="css-a" href="https://en.wikipedia.org/wiki/CSS" target="_blank">CSS</a>
         </div>
-        <div class="icon github">
-            <div class="tooltip">Github</div>
-            <a href="https://github.com/gaziedxo2" class="social-b" target="_blank"><span><i class="fab fa-github"></i></span></a>
         </div>
-        <div class="icon linkedin">
-            <div class="tooltip">LinkedIn</div>
-            <a href="https://www.linkedin.com/in/muhammedgazi/?_l=en_US" class="social-b" target="_blank"><span><i class="fab fa-linkedin"></i></span></a>
+        <div class="about-me-3">
+            <h1>My Project</h1>
+            <p>Very Soon</p>
         </div>
-    </div>
-    <div class="copyright">&copy; iamgaazi.com | All rights reserved.</div>
+        </div>
+        </article>
+    </section>
+    <footer id="contact">
+        <div class="contact">
+            <span>Contact Us!</span>
+            <form action="https://formspree.io/f/xwkwawgj">
+                <input class="name" type="text" placeholder="Name" name="name">
+                <label for="name"></label>
+                <input class="email" type="email" placeholder="E-mail" name="e-mail">
+                <label for="e-mail"></label>
+                <textarea name="textarea" placeholder="Message" rows="10"></textarea>
+                <button class="submit-btn"><a class="submit-btn-a" href="#">Submit</a></button>
+            </form>
+            <div class="social-media">
+                <div class="icons">
+                    <a href="https://instagram.com/gaziedxo" target="_blank"><i class="fab fa-instagram"></i></a>
+                    <a href="https://twitter.com/gaziedxo" target="_blank"><i class="fab fa-twitter"></i></a>
+                    <a href="https://github.com/gaziedxo2" target="_blank"><i class="fab fa-github"></i></a>
+                </div>
+            </div>
+            <h2 class="copyright">&copy; iamgaazi.com | All Right Reserved</h2>
+        </div>
+       
     </footer>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
     <script src="https://kit.fontawesome.com/a076d05399.js"></script>  
 </body>
 </html>
