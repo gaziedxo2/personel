@@ -298,6 +298,7 @@ textarea:focus {
     cursor: pointer;
     font-size: x-large;
     transition: 0.2s;
+    color: red;
 }
 .reset-btn:focus {
     outline: none;
@@ -305,6 +306,7 @@ textarea:focus {
 .reset-btn:hover {
     transform: scale(1.2);
     transform:rotate(45deg);
+    color: black;
 }
 .reset-btn:active {
     transform: scale(0.9);
@@ -468,7 +470,7 @@ textarea:focus {
 
     }
     .submit-btn {
-        margin-left: -10px;
+        margin-left: -7px;
     }
     .copyright {
         width: 130%;
