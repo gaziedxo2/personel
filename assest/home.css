@@ -286,29 +286,28 @@ textarea:focus {
     outline: none;
     box-shadow: 0px 0px 20px 0px white;
 }
-.reset-btn {
+.fa-redo {
     display: flex;
     margin-top: 20px;
-    margin-left: auto;
-    margin-right: auto;
+    margin-left: 48.8%;
+    
     border: none;
-    padding: 5px 11px;
-    border-radius: 200%;
-    background: red;
+    width: 3%;
     cursor: pointer;
     font-size: x-large;
-    transition: 0.2s;
-    color: red;
+    transition: 0.7s;
+    align-items: center;
+    justify-content: center;
 }
-.reset-btn:focus {
+.fa-redo:focus {
     outline: none;
 }
-.reset-btn:hover {
+.fa-redo:hover {
     transform: scale(1.2);
-    transform:rotate(45deg);
+    transform:rotate(360deg);
     color: black;
 }
-.reset-btn:active {
+.fa-redo:active {
     transform: scale(0.9);
 } 
 
