@@ -304,12 +304,10 @@ textarea:focus {
 }
 .fa-redo:hover {
     color: black;
-    transform: rotate(360deg);
-    /* transform: scale(1.2); */
+transform: rotate(360deg);    
+    
 }
-.fa-redo:active {
-    transform: scale(0.9);
-} 
+
 
 .submit-btn {
     padding: 1px 1px;
